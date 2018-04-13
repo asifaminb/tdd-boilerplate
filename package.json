@@ -5,6 +5,9 @@
   "repository": "https://github.com/asifamingov/tdd-boilerplate.git",
   "author": "Asif Amin",
   "license": "MIT",
+  "scripts" : {
+    "test" : "cypress open --config watchForFileChanges=true"
+  },
   "dependencies": {
     "cypress": "^2.1.0"
   }
